@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1360" viewBox="0 0 1200 1360">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#555"/></marker>
+    <style>.t{font-family:'Times New Roman',serif;font-size:24px;fill:#111}.s{fill:#eaf2f8;stroke:#2f5597;stroke-width:3}.d{fill:#fff2cc;stroke:#bf9000;stroke-width:3}.io{fill:#e4dfec;stroke:#7030a0;stroke-width:3}.term{stroke-width:3}.a{fill:none;stroke:#555;stroke-width:3;marker-end:url(#arrow)}.l{font-family:'Times New Roman',serif;font-size:20px;fill:#333}</style>
+  </defs>
+  <rect width="1200" height="1360" fill="white"/>
+  <ellipse cx="500" cy="60" rx="110" ry="38" fill="#e2f0d9" stroke="#548235" class="term"/><text class="t" x="500" y="69" text-anchor="middle">Начало</text>
+  <polygon class="io" points="310,130 700,130 660,220 270,220"/><text class="t" x="485" y="184" text-anchor="middle">Получить строку часов</text>
+  <rect class="s" x="260" y="270" width="450" height="100" rx="18"/><text class="t" x="485" y="310" text-anchor="middle"><tspan x="485">Разделить строку по ;</tspan><tspan x="485" dy="32">с сохранением пустых элементов</tspan></text>
+  <polygon class="d" points="485,420 690,510 485,600 280,510"/><text class="t" x="485" y="503" text-anchor="middle"><tspan x="485">Ровно пять</tspan><tspan x="485" dy="32">значений?</tspan></text>
+  <rect class="s" x="220" y="660" width="530" height="140" rx="18"/><text class="t" x="485" y="705" text-anchor="middle"><tspan x="485">Цикл i = 0..4</tspan><tspan x="485" dy="32">преобразовать элемент в int</tspan><tspan x="485" dy="32">проверить диапазон 0..16</tspan></text>
+  <polygon class="d" points="485,850 690,940 485,1030 280,940"/><text class="t" x="485" y="933" text-anchor="middle"><tspan x="485">Все элементы</tspan><tspan x="485" dy="32">корректны?</tspan></text>
+  <rect class="s" x="180" y="1090" width="610" height="135" rx="18"/><text class="t" x="485" y="1132" text-anchor="middle"><tspan x="485">Вычислить сумму, среднее, дни &gt; 8</tspan><tspan x="485" dy="32">и недельную переработку</tspan><tspan x="485" dy="32">max(0, сумма - 35)</tspan></text>
+  <rect class="s" x="830" y="760" width="320" height="135" rx="18"/><text class="t" x="990" y="805" text-anchor="middle"><tspan x="990">Сообщить об ошибке</tspan><tspan x="990" dy="32">с номером</tspan><tspan x="990" dy="32">позиции</tspan></text>
+  <rect class="s" x="250" y="1270" width="470" height="70" rx="18"/><text class="t" x="485" y="1315" text-anchor="middle">Сформировать итоговый отчёт</text>
+  <path class="a" d="M500 98V130"/><path class="a" d="M485 220V270"/><path class="a" d="M485 370V420"/><path class="a" d="M485 600V660"/><text class="l" x="510" y="635">да</text>
+  <path class="a" d="M690 510H990V760"/><text class="l" x="735" y="500">нет</text>
+  <path class="a" d="M485 800V850"/><path class="a" d="M485 1030V1090"/><text class="l" x="510" y="1065">да</text>
+  <path class="a" d="M690 940H990V895"/><text class="l" x="735" y="930">нет</text>
+  <path class="a" d="M485 1225V1270"/>
+</svg>

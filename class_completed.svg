@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700">
+  <style>.h{font-family:'Times New Roman',serif;font-size:35px;fill:#111}.t{font-family:'Times New Roman',serif;font-size:27px;fill:#111}.b{fill:#f7fbff;stroke:#2f5597;stroke-width:4}</style>
+  <rect width="1100" height="700" fill="white"/>
+  <rect class="b" x="120" y="55" width="860" height="590"/>
+  <line x1="120" y1="135" x2="980" y2="135" stroke="#2f5597" stroke-width="4"/>
+  <line x1="120" y1="335" x2="980" y2="335" stroke="#2f5597" stroke-width="4"/>
+  <text class="h" x="550" y="108" text-anchor="middle">TimesheetAnalyzer</text>
+  <text class="t" x="155" y="180">- WORK_DAYS int = 5</text><text class="t" x="155" y="215">- MIN_HOURS int = 0</text><text class="t" x="155" y="250">- MAX_HOURS int = 16</text><text class="t" x="155" y="285">- DAILY_NORM int = 8</text><text class="t" x="155" y="320">- WEEKLY_NORM int = 35</text>
+  <text class="t" x="155" y="380">+ parseHours(String) int[]</text><text class="t" x="155" y="420">+ total(int[]) int</text><text class="t" x="155" y="460">+ average(int[]) double</text><text class="t" x="155" y="500">+ overtimeDays(int[]) int</text><text class="t" x="155" y="540">+ weeklyOvertime(int[]) int</text><text class="t" x="155" y="580">+ report(String) String</text><text class="t" x="155" y="620">- requireHours(int[]) void</text>
+</svg>
